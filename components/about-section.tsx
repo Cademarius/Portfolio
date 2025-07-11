@@ -7,6 +7,15 @@ import { useLanguage } from "@/contexts/language-context"
 const AboutSection = () => {
   const { t } = useLanguage()
 
+  const handleDownload = () => {
+    const link = document.createElement("a")
+    link.href = "/Cadem_ADANGNITODE_OFFRE_D'EMPLOI.pdf" // Mets ici le chemin vers ton PDF dans /public
+    link.download = "Cadem_ADANGNITODE_Curriculum_Vitae.pdf"
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
+
   return (
     <section
       id="about"
@@ -139,12 +148,14 @@ const AboutSection = () => {
             </motion.div>
 
             <motion.button
+              type="button"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
               viewport={{ once: true }}
+              onClick={handleDownload}
               className="flex items-center gap-3 bg-gradient-to-r from-gray-900 to-gray-800 dark:from-gray-100 dark:to-gray-200 text-white dark:text-gray-900 px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-medium hover:from-gray-800 hover:to-gray-700 dark:hover:from-gray-200 dark:hover:to-gray-300 transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto justify-center sm:justify-start"
             >
               <Download size={20} />

@@ -13,7 +13,7 @@ const ProjectsSection = () => {
        title: t("project.portfolio.title"),
       description: t("project.portfolio.desc"),
       image: "/articoin.png?height=300&width=400",
-      technologies: ["Next.js", "Framer Motion", "Tailwind"],
+      technologies: ["Laravel", "Bootstrap", "JavaScript", "MySQL"],
       liveUrl: "https://catalogue.arti-coin.com/",
       githubUrl: "#",
       featured: true,
@@ -22,7 +22,7 @@ const ProjectsSection = () => {
       title: t("project.dashboard.title"),
       description: t("project.dashboard.desc"),
       image: "/trc.png?height=300&width=400",
-      technologies: ["React", "D3.js", "Python", "FastAPI"],
+      technologies: ["Wordpress", "Laravel", "Javascript", "MySQL"],
       liveUrl: "https://trc.tekbot.io/",
       githubUrl: "#",
       featured: true,
@@ -31,7 +31,7 @@ const ProjectsSection = () => {
       title: t("project.mobile.title"),
       description: t("project.mobile.desc"),
       image: "/wholikeme.png?height=300&width=400",
-      technologies: ["React Native", "Expo", "Firebase"],
+      technologies: ["Next.js", "Tailwind CSS", "shadcn/ui", "Framer Motion"],
       liveUrl: "https://wlm-two.vercel.app/",
       githubUrl: "https://github.com/Cademarius/wlm",
       featured: false,
@@ -40,7 +40,7 @@ const ProjectsSection = () => {
       title: t("project.ecommerce.title"),
       description: t("project.ecommerce.desc"),
       image: "/easy.png?height=300&width=400",
-      technologies: ["Next.js", "TypeScript", "Stripe", "MongoDB"],
+      technologies: ["Reac", "Vite", "Tailwind CSS", "MUI"],
       liveUrl: "https://easy-travel-web-companies.vercel.app/",
       githubUrl: "https://github.com/easytravelio/easy_travel_web",
       featured: false,
@@ -49,7 +49,7 @@ const ProjectsSection = () => {
       title: t("project.dataviz.title"),
       description: t("project.dataviz.desc"),
       image: "/smartscop.png?height=300&width=400",
-      technologies: ["Python", "Plotly", "Pandas", "Streamlit"],
+      technologies: ["Next.js", "Tailwind CSS", "shadcn/ui", "React"],
       liveUrl: "https://smart-repo.vercel.app/",
       githubUrl: "https://dev.azure.com/emackio/SMART/_git/SMART",
       featured: false,
@@ -58,7 +58,7 @@ const ProjectsSection = () => {
       title: t("project.taskmanager.title"),
       description: t("project.taskmanager.desc"),
       image: "/freecine.png?height=300&width=400",
-      technologies: ["React", "Socket.io", "Node.js", "PostgreSQL"],
+      technologies: ["Radix UI", "React", "Next.js", "Framer Motion"],
       liveUrl: "https://freecine-two.vercel.app/",
       githubUrl: "https://github.com/Cademarius/freecine",
       featured: false,
@@ -149,9 +149,9 @@ const ProjectsSection = () => {
                   />
                 </div>
 
-                <p className="text-gray-600 dark:text-gray-400 mb-4 sm:mb-6 text-sm leading-relaxed">
+                {/* <p className="text-gray-600 dark:text-gray-400 mb-4 sm:mb-6 text-sm leading-relaxed">
                   {project.description}
-                </p>
+                </p> */}
 
                 <div className="flex flex-wrap gap-2 mb-4 sm:mb-6">
                   {project.technologies.map((tech) => (

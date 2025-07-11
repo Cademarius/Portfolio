@@ -70,19 +70,19 @@ const translations = {
     "projects.code": "Code",
 
     // Project descriptions
-    "project.ecommerce.title": "E-commerce Platform",
+    "project.ecommerce.title": "Easy Travel",
     "project.ecommerce.desc":
-      "Plateforme e-commerce complète avec panier, paiement Stripe et gestion des commandes en temps réel.",
-    "project.dashboard.title": "Dashboard Analytics",
+      "Easy Travel est une plateforme numérique conçue pour rendre le transport de passagers et de marchandises par bus plus simple, rapide et accessible.",
+    "project.dashboard.title": "Tekbot Robotics",
     "project.dashboard.desc":
       "Tableau de bord interactif pour visualiser et analyser les données business avec graphiques dynamiques.",
-    "project.mobile.title": "Mobile App UI",
+    "project.mobile.title": "WhoLIkeMe",
     "project.mobile.desc": "Interface utilisateur moderne pour application mobile de fitness avec suivi d'activités.",
-    "project.portfolio.title": "Portfolio Website",
+    "project.portfolio.title": "Articoin",
     "project.portfolio.desc": "Site portfolio responsive avec animations fluides et design moderne.",
-    "project.dataviz.title": "Data Visualization Tool",
+    "project.dataviz.title": "SmartScop",
     "project.dataviz.desc": "Outil de visualisation de données avec graphiques interactifs et export PDF.",
-    "project.taskmanager.title": "Task Manager Pro",
+    "project.taskmanager.title": "Free Cine",
     "project.taskmanager.desc": "Application de gestion de tâches collaborative avec notifications temps réel.",
 
     // Contact
@@ -168,18 +168,18 @@ const translations = {
     "projects.code": "Code",
 
     // Project descriptions
-    "project.ecommerce.title": "E-commerce Platform",
+    "project.ecommerce.title": "Easy Travel",
     "project.ecommerce.desc":
-      "Complete e-commerce platform with shopping cart, Stripe payment and real-time order management.",
-    "project.dashboard.title": "Dashboard Analytics",
+      "Easy Travel is a digital platform designed to make passenger and goods transportation by bus simpler, faster, and more accessible.",
+    "project.dashboard.title": "Tekbot Robotics",
     "project.dashboard.desc": "Interactive dashboard to visualize and analyze business data with dynamic charts.",
-    "project.mobile.title": "Mobile App UI",
+    "project.mobile.title": "WhoLikeMe",
     "project.mobile.desc": "Modern user interface for fitness mobile application with activity tracking.",
-    "project.portfolio.title": "Portfolio Website",
+    "project.portfolio.title": "Articoin",
     "project.portfolio.desc": "Responsive portfolio website with smooth animations and modern design.",
-    "project.dataviz.title": "Data Visualization Tool",
+    "project.dataviz.title": "SmartScop",
     "project.dataviz.desc": "Data visualization tool with interactive charts and PDF export.",
-    "project.taskmanager.title": "Task Manager Pro",
+    "project.taskmanager.title": "Free Cine",
     "project.taskmanager.desc": "Collaborative task management application with real-time notifications.",
 
     // Contact

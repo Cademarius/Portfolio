@@ -9,7 +9,7 @@ const AboutSection = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a")
-    link.href = "/Cadem_ADANGNITODE_OFFRE_D'EMPLOI.pdf" // Mets ici le chemin vers ton PDF dans /public
+    link.href = "/Cadem_ADANGNITODE_Curriculum_Vitae.pdf" // Mets ici le chemin vers ton PDF dans /public
     link.download = "Cadem_ADANGNITODE_Curriculum_Vitae.pdf"
     document.body.appendChild(link)
     link.click()

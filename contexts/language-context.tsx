@@ -70,20 +70,19 @@ const translations = {
     "projects.code": "Code",
 
     // Project descriptions
-    "project.ecommerce.title": "Easy Travel",
-    "project.ecommerce.desc":
-      "Easy Travel est une plateforme numérique conçue pour rendre le transport de passagers et de marchandises par bus plus simple, rapide et accessible.",
+   "project.ecommerce.title": "Easy Travel",
+    "project.ecommerce.desc": "Easy Travel est une plateforme numérique conçue pour faciliter la vie des voyageurs et des compagnies de transport au Bénin et en Afrique, en simplifiant le transport de passagers et de marchandises par bus.",
     "project.dashboard.title": "Tekbot Robotics",
-    "project.dashboard.desc":
-      "Tableau de bord interactif pour visualiser et analyser les données business avec graphiques dynamiques.",
-    "project.mobile.title": "WhoLIkeMe",
-    "project.mobile.desc": "Interface utilisateur moderne pour application mobile de fitness avec suivi d'activités.",
+    "project.dashboard.desc": "Tekbot Robotics est une compétition internationale de robotique et d’intelligence artificielle organisée au Bénin sous la supervision de Sèmè City. Elle vise à révéler de jeunes talents passionnés par la robotique et les technologies émergentes.",
+    "project.mobile.title": "WhoLikeMe",
+    "project.mobile.desc": "WhoLikeMe est une application de rencontre amoureuse qui révèle si ton crush est aussi intéressé par toi. Une approche ludique et sincère pour briser la glace sans pression.",
     "project.portfolio.title": "Articoin",
-    "project.portfolio.desc": "Site portfolio responsive avec animations fluides et design moderne.",
+    "project.portfolio.desc": "Articoin est une plateforme de mise en relation entre artisans et consommateurs locaux. Les artisans peuvent y exposer leurs œuvres, vendre leurs produits et discuter directement avec leurs clients.",
     "project.dataviz.title": "SmartScop",
-    "project.dataviz.desc": "Outil de visualisation de données avec graphiques interactifs et export PDF.",
-    "project.taskmanager.title": "Free Cine",
-    "project.taskmanager.desc": "Application de gestion de tâches collaborative avec notifications temps réel.",
+    "project.dataviz.desc": "SmartScop est un outil interne développé pour Sèmè One afin de fluidifier et de digitaliser la gestion du flux quotidien de visiteurs, avec un tableau de bord clair et interactif.",
+    "project.taskmanager.title": "FreeCiné",
+    "project.taskmanager.desc": "FreeCiné est une application mobile de streaming permettant de regarder des films en toute liberté, depuis son smartphone, dans une interface simple et intuitive.",
+
 
     // Contact
     "contact.title": "Me Contacter",
@@ -169,18 +168,18 @@ const translations = {
 
     // Project descriptions
     "project.ecommerce.title": "Easy Travel",
-    "project.ecommerce.desc":
-      "Easy Travel is a digital platform designed to make passenger and goods transportation by bus simpler, faster, and more accessible.",
+    "project.ecommerce.desc": "Easy Travel is a digital platform designed to simplify life for travelers and transport companies in Benin and Africa by making passenger and goods transportation by bus easier and more efficient.",
     "project.dashboard.title": "Tekbot Robotics",
-    "project.dashboard.desc": "Interactive dashboard to visualize and analyze business data with dynamic charts.",
+    "project.dashboard.desc": "Tekbot Robotics is an international robotics and AI competition held in Benin under the supervision of Sèmè City. It aims to uncover young talents passionate about robotics and emerging technologies.",
     "project.mobile.title": "WhoLikeMe",
-    "project.mobile.desc": "Modern user interface for fitness mobile application with activity tracking.",
+    "project.mobile.desc": "WhoLikeMe is a dating platform that tells you if your crush also has a crush on you. A playful and sincere way to break the ice without pressure.",
     "project.portfolio.title": "Articoin",
-    "project.portfolio.desc": "Responsive portfolio website with smooth animations and modern design.",
+    "project.portfolio.desc": "Articoin is a matchmaking platform connecting local artisans with nearby consumers. Artisans can showcase their work, sell their products, and chat directly with clients.",
     "project.dataviz.title": "SmartScop",
-    "project.dataviz.desc": "Data visualization tool with interactive charts and PDF export.",
-    "project.taskmanager.title": "Free Cine",
-    "project.taskmanager.desc": "Collaborative task management application with real-time notifications.",
+    "project.dataviz.desc": "SmartScop is an internal tool developed for Sèmè One to digitize and streamline the management of daily visitor flow, using a clear and interactive dashboard.",
+    "project.taskmanager.title": "FreeCiné",
+    "project.taskmanager.desc": "FreeCiné is a mobile streaming app that allows users to enjoy cinema content freely from their smartphone through a simple and intuitive interface.",
+
 
     // Contact
     "contact.title": "Contact Me",
